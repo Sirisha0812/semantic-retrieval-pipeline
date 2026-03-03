@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Data files (large binary — rebuild with data/prepare_index.py)
+data/ms_marco_10k.index
+data/passages.pkl
+
+# Internal reference docs
+docs/
+
+# Generated outputs
+outputs/latency_histogram.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
